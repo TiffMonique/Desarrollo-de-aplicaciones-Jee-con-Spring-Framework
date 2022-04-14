@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<htmlxmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<p th:each="usuario: ${usuariosRegistrados}">Nombre: [[${usuario.nombre}]] Username: [[${usuario.username}]]</p>
+</body>
+</html>
