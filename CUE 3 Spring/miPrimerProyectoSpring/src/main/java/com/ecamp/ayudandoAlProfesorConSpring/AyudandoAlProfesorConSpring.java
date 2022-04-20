@@ -6,11 +6,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MiPrimerProyectoSpringApplication  implements CommandLineRunner{
+public class AyudandoAlProfesorConSpring  implements CommandLineRunner{
 	@Autowired
 	Profesor profesor;
 	public static void main(String[] args) {
-		SpringApplication.run(MiPrimerProyectoSpringApplication.class, args);
+		SpringApplication.run(AyudandoAlProfesorConSpring.class, args);
 	}
 
 	@Override
